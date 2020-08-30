@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ninja to Cat</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script defer src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+	<div>
+		<p><img src="ninja0.png" id="img0" alt="Top of Ninja headband" data-alt-src="cat0.png"></p>
+		<p><img src="ninja1.png" id="img1" alt="Top of Ninja head" data-alt-src="cat1.png"></p>
+		<p><img src="ninja2.png" id="img2" alt="Ninja face" data-alt-src="cat2.png"></p>
+		<p><img src="ninja3.png" id="img3" alt="Ninja body" data-alt-src="cat3.png"></p>
+		<p><img src="ninja4.png" id="img4" alt="Ninja feet" data-alt-src="cat4.png"></p>
+	</div>
+
+
+	
+	<script>
+		$(document).ready(function(){
+			$('#img0').click (function(){
+				$('#img0').attr('src','cat0.png')
+				});
+			$('#img1').click (function(){
+				$('#img1').attr('src','cat1.png')
+				});
+			$('#img2').click (function(){
+				$('#img2').attr('src','cat2.png')
+				});
+			$('#img3').click (function(){
+				$('#img3').attr('src','cat3.png')
+				});
+			$('#img4').click (function(){
+				$('#img4').attr('src','cat4.png')
+				});
+		});	
+	</script>
+</body>
+</html>
